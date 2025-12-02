@@ -22,3 +22,6 @@ if st.button("Predict"):
             st.success(f"Estimated House Price: ₹ {prediction[0]:,.2f}")
         except:
             st.error("Please enter a valid numeric value!")
+ 
+ # To run the app, use the command:
+ # streamlit run main.py

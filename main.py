@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load model from pickle file
-with open("D:\Python_Course\Projects\simple linear regression\simple_linear_regression_project\linear_regression_house_prediction_model.pkl", "rb") as file:
+with open("linear_regression_house_prediction_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 # Streamlit UI
